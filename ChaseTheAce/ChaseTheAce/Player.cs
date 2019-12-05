@@ -31,7 +31,7 @@ namespace ChaseTheAce
                         foreach (var msg in messages)
                         {
                             data = msg.Substring(0, msg.IndexOf("`"));
-                            RecivedData(data);
+                            //if.....
                         }
                     }
                 }
@@ -40,9 +40,12 @@ namespace ChaseTheAce
             {
             }
         }
-        public void RecivedData(string data)
+        public void SendData(string message)
         {
-
+            message = $"¬{message}`";
+            NetworkStream SendDataStream = client.GetStream();
+            byte[] msg = System.Text.Encoding.Unicode.GetBytes(message);
+            SendDataStream.Write(msg, 0, msg.Length);
         }
     }
 }
