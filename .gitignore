@@ -1,0 +1,8 @@
+**/packages/
+.vs/
+**/bin/Debug/
+**/bin/Release/
+**/obj/
+*.lnk
+*.pubxml
+*.user
