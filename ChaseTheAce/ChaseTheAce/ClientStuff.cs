@@ -13,7 +13,7 @@ namespace ChaseTheAce
         string name;
         TcpClient client;
         Form1 f1;
-        public void setup(Form1 form1)
+        public void setup(Form1 form1,string ip)
         {
             f1 = form1;
             name = Environment.UserName;
@@ -24,7 +24,10 @@ namespace ChaseTheAce
             }
             Send("UN:"+name);
             f1.MenuPanel.Hide();
-            f1.Text = f1.TBip.Text + " " + name;
+            f1.PNLPlay.Show();
+            f1.Size = new System.Drawing.Size(650, 450);
+            f1.PNLPlay.Location = new System.Drawing.Point(0, 0);
+            f1.Text = ip + " " + name;
             f1.TBip.Clear();
         }
         private void Send(string message)
