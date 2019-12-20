@@ -39,19 +39,10 @@ namespace ChaseTheAce
             this.Size = new Size(650, 375);
             MenuPanel.Location = new Point(10, 10);
             PNLPlay.Hide();
+            WaitingPNL.Hide();
             SetUpCards();
-            GetGame();
         }
-        private void GetGame()
-        {
-            HttpClient Client = new HttpClient();
-            Client.DefaultRequestHeaders.Add("User-Agent", "Chrome-chasetheace");
-            Client.BaseAddress = new Uri("https://ml-api.uk.ms");
-            string query = "masterlist/list?type=chasetheace";
-            var request = new HttpRequestMessage(HttpMethod.Get, query);
-            var response = Client.SendAsync(request).Result;
-            MessageBox.Show(response.Content.ReadAsStringAsync().Result);
-        }
+
         private void SetUpCards()
         {
             List<Card> cards = new List<Card>();
@@ -106,5 +97,12 @@ namespace ChaseTheAce
             return null;
         }
 
+        private void BTNVote_Click(object sender, EventArgs e)
+        {
+            //PNLPlay.Show();
+            //this.Size = new Size(571, 439);
+            //WaitingPNL.Hide();
+            cp.Send("Vote");
+        }
     }
 }

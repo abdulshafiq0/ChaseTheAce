@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using System.Net.Sockets;
 
+using System.Windows.Forms;
+
 namespace ChaseTheAce
 {
     class Player
@@ -13,6 +15,7 @@ namespace ChaseTheAce
         public string name;
         public TcpClient client;
         public Card mycard;
+        public ServerStuff Server;
 
         public void clientRD()
         {
@@ -31,7 +34,16 @@ namespace ChaseTheAce
                         foreach (var msg in messages)
                         {
                             data = msg.Substring(0, msg.IndexOf("`"));
-                            //if.....
+                            if (data.StartsWith("UN:"))
+                            {
+                                var arr = data.Split(':');
+                                name = arr[1];
+                                //MessageBox.Show(name);
+                                foreach(Player p in Server.players)
+                                {
+                                    p.SendData("User:" + name);
+                                }
+                            }
                         }
                     }
                 }

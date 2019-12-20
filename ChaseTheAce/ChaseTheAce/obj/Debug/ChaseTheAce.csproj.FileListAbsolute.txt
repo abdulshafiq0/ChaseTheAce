@@ -18,3 +18,12 @@ C:\Users\abdul\Documents\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\Ch
 C:\Users\abdul\Documents\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\bin\Debug\ChaseTheAce.exe.config
 C:\Users\abdul\Documents\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\bin\Debug\ChaseTheAce.exe
 C:\Users\abdul\Documents\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\bin\Debug\ChaseTheAce.pdb
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\bin\Debug\ChaseTheAce.exe.config
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\bin\Debug\ChaseTheAce.exe
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\bin\Debug\ChaseTheAce.pdb
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\ChaseTheAce.csprojAssemblyReference.cache
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\ChaseTheAce.Form1.resources
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\ChaseTheAce.Properties.Resources.resources
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\ChaseTheAce.csproj.GenerateResource.cache
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\ChaseTheAce.exe
+\\cca07\C14\ShaAbd14\GitHub\ChaseTheAce\ChaseTheAce\ChaseTheAce\obj\Debug\ChaseTheAce.pdb
